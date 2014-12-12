@@ -1,0 +1,18 @@
+﻿{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta2-11765",
+        "Microsoft.AspNet.Hosting": "1.0.0-beta2-10792",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta2-11209",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta2-10970",
+        "Microsoft.Framework.DependencyInjection": "1.0.0-beta2-10635",
+        "Microsoft.Framework.ConfigurationModel": "1.0.0-beta2-10612"
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001"
+    },
+    "frameworks" : {
+        "aspnet50" : { },
+        "aspnetcore50" : { }
+    }
+}

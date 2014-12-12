@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22410.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScopingRules", "ScopingRules\ScopingRules.kproj", "{28092966-8528-4B2B-A6AD-A59D1F152396}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IntegrationWithKnownContainers", "IntegrationWithKnownContainers\IntegrationWithKnownContainers.kproj", "{0DFA8F69-BFE3-4842-80AE-2E5E93575BAE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UseDIInAppEnv", "UseDIInAppEnv\UseDIInAppEnv.kproj", "{93ADCEC9-C7AA-4E12-AE83-1CCA8679899B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UseDIInHostEnv", "UseDIInHostEnv\UseDIInHostEnv.kproj", "{13F0F5D8-EF8C-44D0-8CD0-BFCDA98B1EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28092966-8528-4B2B-A6AD-A59D1F152396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28092966-8528-4B2B-A6AD-A59D1F152396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28092966-8528-4B2B-A6AD-A59D1F152396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28092966-8528-4B2B-A6AD-A59D1F152396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFA8F69-BFE3-4842-80AE-2E5E93575BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFA8F69-BFE3-4842-80AE-2E5E93575BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFA8F69-BFE3-4842-80AE-2E5E93575BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFA8F69-BFE3-4842-80AE-2E5E93575BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93ADCEC9-C7AA-4E12-AE83-1CCA8679899B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ADCEC9-C7AA-4E12-AE83-1CCA8679899B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ADCEC9-C7AA-4E12-AE83-1CCA8679899B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ADCEC9-C7AA-4E12-AE83-1CCA8679899B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F0F5D8-EF8C-44D0-8CD0-BFCDA98B1EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F0F5D8-EF8C-44D0-8CD0-BFCDA98B1EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F0F5D8-EF8C-44D0-8CD0-BFCDA98B1EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F0F5D8-EF8C-44D0-8CD0-BFCDA98B1EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
